@@ -5,8 +5,7 @@ Naive implementation of [Circle Loss](https://arxiv.org/pdf/2002.10857.pdf), wit
 Info:
 - Dataset: Mnist
 - Model: Keras Mnist Demo
-- Optimizer: Naive SGD
-- Learning_rate: default
+- Optimizer: Naive SGD, lr = default 0.01, momentum=0.
 - Feats_dim: 3, 10, 32, 128
 - With_model_eval: linear softmax trained on feats
 - Without_model_eval: cosine similarity between sample's feat and mean feature vector of each class
